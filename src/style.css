@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Open+Sans&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#count {
+  margin: 2em auto;
+  position: relative;
+}
+
+.btn-wrapper {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+
+#button-decrement,
+#button-increment {
+  text-transform: uppercase;
+  padding: 0.5em 1.5em;
+  font-size: 18px;
+  font-weight: 300;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  border-radius: 5px;
+  transition: background 0.5s;
+}
+
+#button-decrement:hover,
+#button-increment:hover {
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 1%,
+    rgba(148, 187, 233, 1) 81%
+  );
+}
